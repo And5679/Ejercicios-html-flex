@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+
+    <h1>Travel reservation form</h1>
+    <h4>*denotes mandotory</h4>
+    <form>
+
+        <label for="inputname">Full name*:</label><br>
+        <input type="text" name="name" id="inputname" placeholder="FirstName LastName"/><br>
+
+        
+        <label for="inputemail">Email address*:</label> <br>
+        <input type="email" name="email" id="inputemail" placeholder="EMAIL_ADDRESS"/><br>
+
+        <label>Select Tour Package* :</label><br>
+        <select name="tour" id="tour">
+        <option value="1">Goa</option>
+        <option value="2">Europe </option>
+        <option value="3">Africa </option>
+        </select><br>
+
+        <label for="inputfecha">Arrival date*</label><br>
+        <input type="datetime" name="date" id="inputfecha" placeholder="m/d/y"><br>
+
+        
+        <label for="inputNpersonas">Number of persons*:</label> <br>
+        <input type="number" name="number" id="inputNpersonas" placeholder="UNKNOWN_TYPE"/><br>
+
+        <labek>What would you want to avail?</labek><br>
+        <input type="checkbox" name="boarding" id="inputboarding">
+        <label for="inputboarding">Boarding</label><br>
+
+        <input type="checkbox" name="fooding" id="inputfooding">
+        <label for="inputfooding">Fooding</label><br>
+
+        <input type="checkbox" name="Sight seeing" id="inputSightseeing">
+        <label for="inputSightseeing">Sight seeing</label><br>
+
+        <label for="inputdiscout">Discout coupon code:</label><br>
+        <input type="text" name="discout coupon code" id="inputdiscout" placeholder="UNKNOWN_TYPE"><br>
+
+
+        <label>Terms and conditions*</label><br>
+        <input type="radio" name="conditions" id="inputIagree">
+        <label for="inputIagree">I agree</label>
+
+        <input type="radio" name="conditions" id="inputIdisagree">
+        <label for="inputIdisagree">I disagree</label><br>
+
+        <input type="submit" name="submit" id="inputButton" value="Complete reservation">
+
+
+  </body>
+</html>
